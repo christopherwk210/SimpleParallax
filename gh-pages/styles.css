@@ -1,0 +1,48 @@
+* {
+  transition: transform 0.1s;
+}
+
+body {
+  font-family: sans-serif;
+  text-align: center;
+  padding-top: 20vh;
+  font-size: 24px;
+  background-image: url('ignasi_pattern_s.png');
+}
+
+.container {
+  width: 1120px;
+  margin: 0 auto;
+}
+
+#front-page {
+  font-weight: lighter;
+  transition: all 0.1s;
+  font-size: 2em;
+  color: #a203d1;
+}
+
+#first-paragraph {
+  margin-bottom: 55vh;
+}
+
+#options-paragraph {
+  margin-bottom: 10vh;
+}
+
+#second-paragraph {
+  margin-bottom: 10vh;
+}
+
+.boxed {
+  background-color: #d3bfee;
+  padding: 1.15em;
+  border-radius: 0.75em;
+}
+
+.code {
+  background-color: #a488cb;
+  text-align: left;
+  border-radius: 0.25em;
+  padding: 0.5em;
+}

@@ -1,0 +1,15 @@
+{
+  "name": "SimpleParallax",
+  "version": "1.0.0",
+  "description": "SimpleParallax is a small, simple, easy to use scrolling parallax library.",
+  "scripts": {
+    "start": "grunt"
+  },
+  "author": "Chris Anselmo",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-uglify": "^2.1.0"
+  }
+}

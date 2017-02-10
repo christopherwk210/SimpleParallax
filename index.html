@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  	<meta content="" name="description">
+  	<title>SimpleParallax</title>
+    <link href="gh-pages/styles.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <h1 id="front-page">SimpleParallax</h1>
+      <p id="first-paragraph" class="boxed">
+        SimpleParallax is a small, simple, easy to use scrolling parallax library. It uses CSS3 transformations along with
+        requestAnimationFrame to create buttery smooth animations, with zero dependencies. Get up and running in seconds.
+      </p>
+      <div id="center-screen" class="boxed">
+        <p>This box can be created like this:</p>
+<pre class="code">var parallax = new SimpleParallax({
+  element: document.getElementById('center-screen'),
+  speed: 2
+});</pre>
+      </div>
+      <div id="options-paragraph" class="boxed">
+        <p>Various options are supported:</p>
+<pre class="code">var parallax = new SimpleParallax({
+  element: document.getElementById('element'),
+  speed: 0.5,
+  offset: function() {
+      return 20;
+  }
+});</pre>
+      </div>
+      <div id="second-paragraph" class="boxed">
+        <p>Created by <a href="chrisanselmo.com">Chris Anselmo</a>. View on Github.</p>
+        <p>Background by <a href="https://www.toptal.com/designers/subtlepatterns/one-in-a-million-s/">Ignasi Àvila Padró</a>
+      </div>
+    </div>
+  	<script src="dist/SimpleParallax.min.js"></script>
+    <script src="gh-pages/main.js"></script>
+  </body>
+</html>
