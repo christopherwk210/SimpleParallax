@@ -2,6 +2,8 @@
 
 SimpleParallax is a small, simple, easy to use scrolling parallax library. It uses CSS3 transformations along with requestAnimationFrame to create buttery smooth animations, with zero dependencies. Get up and running in seconds.
 
+[Live Demo](https://christopherwk210.github.io/SimpleParallax/) | [Download minified JS (<3kb)](https://raw.githubusercontent.com/christopherwk210/simpleparallax/master/dist/SimpleParallax.min.js)
+
 ## Usage
 
 To build locally:
